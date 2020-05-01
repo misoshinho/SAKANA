@@ -6,7 +6,7 @@ body {
 	background-size: cover;
 }
 h1  {
-    font-size: 45px; text-align: initial;
+    font-size: 30px; text-align: initial;
     border-bottom: 5px solid red;
     border-top: 5px solid red;
     margin-bottom: 0px; 
@@ -16,12 +16,14 @@ h1  {
     }
 ul {
 	padding: 5px;
-	margin: 10px 0;
+	margin: 0px 0;
 	list-style: none;
 	
 	border-bottom: 1px solid #e7e7e7;
 	float: left;
 	clear: left;
+	padding-left: 70px;
+
 	
 	}
 
@@ -62,4 +64,8 @@ ul.red li a.current {
 
 ul.red li a.current span {
 	background: url(images/red.png) no-repeat top left;
+}
+
+.menu {
+	padding-left: 0%;
 }
